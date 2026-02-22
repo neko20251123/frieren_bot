@@ -75,7 +75,7 @@ client.on("guildMemberAdd", async (member) => {
     const line = pick(GREETINGS);
 
     await channel.send(
-      `🌿 <@${member.id}>（${member.displayName}） ${line}`
+      `🌿 <@${member.id}> ${line}`
     );
 
   } catch (e) {
